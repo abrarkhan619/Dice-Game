@@ -1,1 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.score {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+#gameMessage {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+#gameBody {
+    /* position: absolute; */
+    margin: auto;
+    /* width: 50%; */
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.buttons {
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+  #restartButton {
+      background-color: gray;
+      color: white;
+  }
+
+  #rollButton {
+      background-color: yellow;
+      color: black;
+      border-style: solid;
+      border-width: 0.1rem;
+  }
