@@ -8,17 +8,20 @@
     <title>Dice Game</title>
 </head>
 <body>
-    <h1>Dice Game</h1>
-    <h2>Player 1</h2>
-    <p id="playerScore"></p>
-    <p>Total score: <span id="totalScore"></span></p>
-    <img src="img/dice1.png" alt="dice image" id="diceImage">
-
-
-
-    <!-- <p>Number rolled: <span id="rolled"></span></p> -->
-    <!-- <p>Total score: <span id="score"></span></p> -->
-    <button id="roll">Roll dice</button>
+    <div>
+        <h1>Dice Game</h1>
+        <p>Total score: <span id="totalScore"></span></p>
+    </div>
+    <div>
+        <img src="img/dice1.png" alt="dice image" id="diceImage">
+    </div>
+    <div>
+        <p id="gameMessage"></p>
+    </div>
+    <div id="buttons">
+        <button id="rollButton">Roll dice</button>
+        <button id="restartButton">Start again</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
