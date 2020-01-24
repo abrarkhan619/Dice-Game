@@ -56,7 +56,23 @@ h1 {
   }
 
   #stats {
-    margin-top: 1rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
   }
+
+  #diceStats {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    justify-content: center;
+}
+  
+  .images {
+      height: 3rem;
+      width: 3rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+
