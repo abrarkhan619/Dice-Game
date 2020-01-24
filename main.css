@@ -54,3 +54,9 @@ h1 {
       border-style: solid;
       border-width: 0.1rem;
   }
+
+  #stats {
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+  }
